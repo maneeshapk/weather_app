@@ -22,6 +22,7 @@ class Weather {
 factory  Weather.fromMap(Map<String, dynamic> weatherMap) {
     return Weather(
         cityname: weatherMap["cityname"],
+        
         temperture: weatherMap["temperture"],
         tem_min:weatherMap["tem_min"],
         tem_max: weatherMap["tem_max"],
